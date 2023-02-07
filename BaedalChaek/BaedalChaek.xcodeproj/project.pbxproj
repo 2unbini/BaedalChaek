@@ -11,6 +11,9 @@
 		A89699AC2992403200585953 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89699AB2992403200585953 /* ContentView.swift */; };
 		A89699AE2992403300585953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A89699AD2992403300585953 /* Assets.xcassets */; };
 		A89699B12992403300585953 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A89699B02992403300585953 /* Preview Assets.xcassets */; };
+		A89699B82992409600585953 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89699B72992409600585953 /* HomeView.swift */; };
+		A89699BA2992499800585953 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89699B92992499800585953 /* ListView.swift */; };
+		A89699BC29924F0000585953 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89699BB29924F0000585953 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		A89699AB2992403200585953 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A89699AD2992403300585953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A89699B02992403300585953 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A89699B72992409600585953 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A89699B92992499800585953 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		A89699BB29924F0000585953 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				A89699A92992403200585953 /* BaedalChaekApp.swift */,
+				A89699B72992409600585953 /* HomeView.swift */,
+				A89699B92992499800585953 /* ListView.swift */,
 				A89699AB2992403200585953 /* ContentView.swift */,
 				A89699AD2992403300585953 /* Assets.xcassets */,
 				A89699AF2992403300585953 /* Preview Content */,
+				A89699BB29924F0000585953 /* DetailView.swift */,
 			);
 			path = BaedalChaek;
 			sourceTree = "<group>";
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A89699B82992409600585953 /* HomeView.swift in Sources */,
+				A89699BA2992499800585953 /* ListView.swift in Sources */,
 				A89699AC2992403200585953 /* ContentView.swift in Sources */,
+				A89699BC29924F0000585953 /* DetailView.swift in Sources */,
 				A89699AA2992403200585953 /* BaedalChaekApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
